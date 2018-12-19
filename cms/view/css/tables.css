@@ -1,0 +1,36 @@
+/*TABLES*/
+.container_table{
+    min-height: 360px;
+    margin: 40px auto 40px auto;
+    border: 1px solid rgba(242,133,68,0.70);
+    border-radius: 4px; 
+}
+
+.funcoes{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.add{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    margin-top: -65px;
+    font-size: 30px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.icone_add{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.icone_add img{
+    width: 100%;
+    height: 100%;
+}
+/************************************8*/

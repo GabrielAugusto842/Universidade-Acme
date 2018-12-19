@@ -1,0 +1,52 @@
+/* CSS Document */
+
+/*RNS-Sanz*/
+
+@font-face {
+  font-family: 'RNS-Sanz-Bold';
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Bold.eot.eot');
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/RNS Sanz/RNS_Sanz-WOOF2/RNSSanz-Bold.woff2') format('woff2'),
+    url('../font/RNS Sanz/RNS_Sanz-WOFF/RNSSanz-Bold.woff') format('woff'),
+    url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Bold.svg#Locaweb-Icons') format('svg'),
+    url('../font/RNS Sanz/RNS_Sanz-TTF/RNSSanz-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+    
+}
+
+@font-face {
+  font-family: 'RNS-Sanz-Light';
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Light.eot');
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Light.eot?#iefix') format('embedded-opentype'),
+    url('../font/RNS Sanz/RNS_Sanz-WOOF2/RNSSanz-Light.woff2') format('woff2'),
+    url('../font/RNS Sanz/RNS_Sanz-WOFF/RNSSanz-Light.woff') format('woff'),
+    url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Light.svg#Locaweb-Icons') format('svg'),
+    url('../font/RNS Sanz/RNS_Sanz-TTF/RNSSanz-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RNS-Sanz-Regular';
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Medium.eot');
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/RNS Sanz/RNS_Sanz-WOOF2/RNSSanz-Medium.woff2') format('woff2'),
+    url('../font/RNS Sanz/RNS_Sanz-WOFF/RNSSanz-Medium.woff') format('woff'),
+    url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-Medium.svg#Locaweb-Icons') format('svg'),
+    url('../font/RNS Sanz/RNS_Sanz-TTF/RNSSanz-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RNS-Sanz-ExtraBold';
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-ExtraBold.eot');
+  src: url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../font/RNS Sanz/RNS_Sanz-WOOF2/RNSSanz-ExtraBold.woff2') format('woff2'),
+    url('../font/RNS Sanz/RNS_Sanz-WOFF/RNSSanz-ExtraBold.woff') format('woff'),
+    url('../font/RNS Sanz/RNS_Sanz–EOT/RNSSanz-ExtraBold.svg#Locaweb-Icons') format('svg'),
+    url('../font/RNS Sanz/RNS_Sanz-TTF/RNSSanz-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

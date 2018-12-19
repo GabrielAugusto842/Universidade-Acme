@@ -1,0 +1,65 @@
+<script>
+
+	$(function(){
+
+		//Carregar rede social
+		$("#box-postar").load("view/telas/rede_social/postar.php");
+		$("#post").load("view/telas/rede_social/rede_social.php", function(){
+			//Atualiza tela de postagens de 3 em 3 minutos
+			setInterval(function(){
+				$("#post").load("view/telas/rede_social/rede_social.php");
+			},180000);
+			setInterval(function(){
+				$("#box-postar").load("view/telas/rede_social/postar.php");
+			},200000);
+		});
+
+		//Carregar forum
+		$("#container_perguntas_forum").load("view/telas/forum/perguntas.php");
+
+		//Criar pergunta
+		$("#btnNovaPerguntaForum").click(function(){
+			$("#corpo_forum").load("view/telas/forum/nova_pergunta.php",function(){
+				$('#scripts').load("index.php #scripts");
+				$('#scripts').loadFrom({url:"index.php", target:"scripts"});
+			});
+		});
+
+		$(".header_forum").click(function () {
+
+			if($('.corpo_forum').height() == 40){
+				$(".corpo_forum").animate({ height:85 + "%"}, "fast");
+				//$("#container_forum").delay(200).slideDown("fast");
+			}else{
+				//$("#container_forum").slideUp("fast");
+				$(".corpo_forum").delay(100).animate({ height: 40 }, "fast");
+				setTimeout(function(){
+					$("#container_quadro").load("index.php #container_quadro");
+				},200);
+
+			}
+		});
+
+
+
+		//Publica uma nova pergunta post, Submit de frmPerguntaForum
+		$("#frmPerguntaForum").formSubmit("router.php?controller=perguntaForum&modo=inserir&matricula=<?= $_SESSION['aluno']["matricula"] ?>&idForum=<?= $_SESSION['aluno']["idForum"]?>",function(){
+				//Valta para perguntas
+				$("#corpo_forum").load("index.php #corpo_forum");
+				//$("#container_quadro_trabalhos").loadFrom({url:"index.php", target:"container_quadro_trabalhos"}); //Evita parada de funcionamento do fechaento do forum
+				$("#container_perguntas_forum").load("index.php #container_perguntas_forum"); //Limpa input para evitar itens duplicados
+
+			});
+
+
+		$("#voltar_perguntas").click(function(){
+			$("#corpo_forum").load("index.php #corpo_forum>",function(){
+				$("#container_perguntas_forum").load("view/telas/forum/perguntas.php",function(){
+					$('#scripts').loadFrom({url:"index.php", target:"scripts"});
+				});
+			});
+		})
+
+	});
+
+</script>

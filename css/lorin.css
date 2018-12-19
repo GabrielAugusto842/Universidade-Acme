@@ -1,0 +1,50 @@
+/* CSS Document */
+
+/*Lorin*/
+@font-face {
+    font-family: 'Lorin-Bold';
+    src: url('../font/Lorin/Lorin-Bold.eot');
+    src: url('../font/Lorin/Lorin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Lorin/Lorin-Bold.woff2') format('woff2'),
+        url('../font/Lorin/Lorin-Bold.woff') format('woff'),
+        url('../font/Lorin/Lorin-Bold.ttf') format('truetype'),
+        url('../font/Lorin/Lorin-Bold.svg#Lorin-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin-Light';
+    src: url('../font/Lorin/Lorin-Light.eot');
+    src: url('../font/Lorin/Lorin-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/Lorin/Lorin-Light.woff2') format('woff2'),
+        url('../font/Lorin/Lorin-Light.woff') format('woff'),
+        url('../font/Lorin/Lorin-Light.ttf') format('truetype'),
+        url('../font/Lorin/Lorin-Light.svg#Lorin-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin-Regular';
+    src: url('../font/Lorin/Lorin-Regular.eot');
+    src: url('../font/Lorin/Lorin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Lorin/Lorin-Regular.woff2') format('woff2'),
+        url('../font/Lorin/Lorin-Regular.woff') format('woff'),
+        url('../font/Lorin/Lorin-Regular.ttf') format('truetype'),
+        url('../font/Lorin/Lorin-Regular.svg#Lorin-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lorin-ExtraBold';
+    src: url('../font/Lorin/Lorin-ExtraBold.eot');
+    src: url('../font/Lorin/Lorin-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Lorin/Lorin-ExtraBold.woff2') format('woff2'),
+        url('../font/Lorin/Lorin-ExtraBold.woff') format('woff'),
+        url('../font/Lorin/Lorin-ExtraBold.ttf') format('truetype'),
+        url('../font/Lorin/Lorin-ExtraBold.svg#Lorin-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
